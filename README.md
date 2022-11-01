@@ -9,18 +9,16 @@ As ferramentas utilizadas no desenvolvimento foram: Docker, Typescript, Node.Js 
 
 <details>
   <summary><strong>➕ Instruções</strong></summary><br />
-  > Rode o serviço `node` com o comando `docker-compose up -d`.
+  
+  - Rode o serviço `node` com o comando `docker-compose up -d`.
   - Esse serviço irá inicializar um container chamado `trybers_and_dragons`.
   - A partir daqui você pode rodar o container `trybers_and_dragons` via CLI ou abri-lo no VS Code.
-
-  > Use o comando `docker exec -it trybers_and_dragons bash`.
+  - Use o comando `docker exec -it trybers_and_dragons bash`.
   - Ele te dará acesso ao terminal interativo do container criado pelo compose, que está rodando em segundo plano.
-
-  > Instale as dependências [**Caso existam**] com `npm install`
+  - Instale as dependências com `npm install`
   
   ⚠ Atenção: Caso opte por utilizar o Docker, **TODOS** os comandos disponíveis no `package.json` (npm start, npm test, npm run dev, ...) devem ser executados **DENTRO** do container, ou seja, no terminal que aparece após a execução do comando `docker exec` citado acima. 
 </details>
-
 
 
 ## 🐉 Contextualizando
