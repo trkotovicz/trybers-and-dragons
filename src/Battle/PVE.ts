@@ -10,7 +10,6 @@ export default class PVE extends Battle {
     if (
       this.player.lifePoints > 0
       && this.monsters.every((monster) => monster.lifePoints > 0)) {
-      console.log('loop infinito');
       this.monsters.forEach((monster) => this.player.attack(monster));
       this.monsters.forEach((monster) => monster.attack(this.player));
     }
